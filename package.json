@@ -1,0 +1,25 @@
+{
+  "name": "to-github-with-nodejs",
+  "version": "1.0.0",
+  "description": "Koden i dette repositoriet bygger på artikkelen med følgende adresse: https://erbalvindersingh.medium.com/pushing-a-git-repo-online-to-github-via-nodejs-and-simplegit-package-17893ecebddd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mestring/to-github-with-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mestring/to-github-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/mestring/to-github-with-nodejs#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.9.0",
+    "shelljs": "^0.8.4",
+    "simple-git": "^2.44.0"
+  }
+}
